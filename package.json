@@ -1,0 +1,20 @@
+{
+  "name": "my-site",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Jemimah",
+    "Jem",
+    "Galeon",
+    "Software",
+    "Analyst",
+    "Makati",
+    "Philippines"
+  ],
+  "author": "Jem Galeon",
+  "license": "ISC"
+}
