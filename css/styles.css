@@ -1,7 +1,13 @@
 :root {
   --color-light: #eee;
   --color-dark: #333;
-  --color-red: #b40000;
+  --color-red: #ff0000;
+  --color-orange: #ff7f00;
+  --color-yellow: #ffff00;
+  --color-green: #00ff00;
+  --color-blue: #0000ff;
+  --color-indigo: #2e2b5f;
+  --color-violet: #8b00ff;
 }
 
 html {
@@ -20,8 +26,8 @@ body {
   font-size: 1.4rem;
   font-weight: 200;
   line-height: 1.2;
-  background: var(--color-light);
-  color: var(--color-dark);
+  background: var(--color-dark);
+  color: var(--color-light);
 }
 
 h1 {
@@ -45,13 +51,37 @@ a {
 
 .code {
   font-family: "Roboto Mono";
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
   font-style: italic;
 }
 
 .text-red {
   color: var(--color-red);
+}
+
+.text-orange {
+  color: var(--color-orange);
+}
+
+.text-yellow {
+  color: var(--color-yellow);
+}
+
+.text-green {
+  color: var(--color-green);
+}
+
+.text-blue {
+  color: var(--color-blue);
+}
+
+.text-indigo {
+  color: var(--color-indigo);
+}
+
+.text-violet {
+  color: var(--color-violet);
 }
 
 a::after {
